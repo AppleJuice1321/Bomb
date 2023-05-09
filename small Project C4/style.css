@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    height: 100px;
+    text-align: center;
+}
+
+.bomb_heading {
+    margin-top: 1em;
+}
+
+.bomb_container {
+    display: flex;
+    justify-content: center;
+}
+
+.bomb {
+    background-color: rgb(12, 94, 12);
+    height: 27em;
+    width: 25em;
+    margin-top: 2em;
+    border: solid rgb(22, 117, 22) 5px;
+}
+
+.bomb_chargeCounter_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bomb_counter {
+    background-color: brown;
+    border: solid black 5px;
+    height: 2.5em;
+    margin: 3em 5em;
+}
+
+.charge_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 2em;
+    border: solid rgb(22, 117, 22) 5px;
+}
+
+.charge_item {
+    background-color: rgb(142, 134, 87);
+    height: 15em;
+    width: 6em;
+}
+
+/* .bomb_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bomb_heading {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.bomb_inside_container {
+    display: flex;
+    justify-content: center;
+}
+
+.bomb {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(12, 94, 12);
+    height: 15em;
+    width: 15em;
+}
+
+.charge_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.charge_item {
+    background-color: rgb(142, 134, 87);
+    height: 5em;
+    width: 3em;
+} */
